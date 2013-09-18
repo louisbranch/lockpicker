@@ -1,0 +1,26 @@
+{
+  "name": "lockpicker",
+  "version": "0.0.1",
+  "description": "Simple wrapper to create and validate passwords using crypto.pbkdf2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "password",
+    "authentication"
+  ],
+  "author": {
+    "name": "Luiz Branco",
+    "email": "me@luizbranco.com",
+    "url": "http://github.com/luizbranco"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "grunt-shell": "~0.3.1",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt": "~0.4.1"
+  }
+}
