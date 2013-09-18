@@ -1,6 +1,8 @@
 Lockpicker
 ===========
 
+[![Build Status](https://drone.io/github.com/luizbranco/lockpicker/status.png)](https://drone.io/github.com/luizbranco/lockpicker/latest)
+
 Simple wrapper to create passwords hashes and validate them using crypto.pbkdf2
 
 ## How to Install
@@ -19,7 +21,6 @@ Simple wrapper to create passwords hashes and validate them using crypto.pbkdf2
 
     lockpicker.hashPassword(plainPassword, function(err, password) {
       if (err) throw new Error(err)
-      delete user.plainPassword;
       dbUser.password = password.hash;
       dbUser.salt = password.salt;
     });
